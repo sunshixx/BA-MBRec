@@ -50,8 +50,8 @@ BP-MBRec/
 
 请确保已安装以下依赖：
 
-- Python 3.8+
-- PyTorch 1.10+
+- Python
+- PyTorch
 - NumPy
 - SciPy
 

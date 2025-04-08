@@ -35,17 +35,18 @@ BP-MBRec/
 - **灵活配置**：通过 `Params.py` 文件调整模型参数。
 
 ## 数据集
+Raw data：
+IJCAI contest: https://tianchi.aliyun.com/dataset/dataDetail?dataId=47
+Retail Rocket: https://www.kaggle.com/retailrocket/ecommerce-dataset
+Tmall: https://tianchi.aliyun.com/dataset/dataDetail?dataId=649
 
-项目使用了 [IJCAI 2015](https://www.ijcai.org/) 提供的多行为推荐数据集，包含以下文件：
+测试项目可以使用 [IJCAI 2015](https://www.ijcai.org/) 提供的多行为推荐数据集，包含以下文件：
 
 - `trn_buy`：训练集中的购买行为
 - `trn_cart`：训练集中的加入购物车行为
 - `trn_click`：训练集中的点击行为
 - `trn_fav`：训练集中的收藏行为
 - `tst_int`：测试集中的交互行为
-
-## 快速开始
-
 ### 环境依赖
 
 请确保已安装以下依赖：

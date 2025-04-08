@@ -36,8 +36,11 @@ BP-MBRec/
 
 ## 数据集
 Raw data：
+
 IJCAI contest: https://tianchi.aliyun.com/dataset/dataDetail?dataId=47
+
 Retail Rocket: https://www.kaggle.com/retailrocket/ecommerce-dataset
+
 Tmall: https://tianchi.aliyun.com/dataset/dataDetail?dataId=649
 
 测试项目可以使用 [IJCAI 2015](https://www.ijcai.org/) 提供的多行为推荐数据集，包含以下文件：

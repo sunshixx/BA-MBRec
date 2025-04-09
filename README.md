@@ -95,6 +95,12 @@ python main_pytorch.py
 
 欢迎对本项目提出建议或贡献代码！请通过提交 Issue 或 Pull Request 与我们联系。
 
+## 参考文献
+有关 BA-MBRec 的详细信息，请参考以下论文：
+Behavior-Type Aware Representation Learning for Multiplex Behavior Recommendation
+Anonymous Author(s), Anonymous Institution
+Available at: https://github.com/sunshixx/BA-MBRec/tree/master 
+
 ## 许可证
 
 本项目基于 MIT 许可证开源，详情请参阅 [LICENSE](LICENSE) 文件。

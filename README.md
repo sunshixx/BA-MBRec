@@ -12,16 +12,6 @@ BP-MBRec/
 ├── Model.py             # 模型定义
 ├── MV_Net.py            # 多视角网络实现
 ├── Params.py            # 参数配置
-├── data/                # 数据目录
-│   ├── __init__.py
-│   ├── README.md
-│   ├── IJCAI_15/        # 数据集文件夹
-│   │   ├── meta_multi_single_beh_user_index_shuffle
-│   │   ├── trn_buy
-│   │   ├── trn_cart
-│   │   ├── trn_click
-│   │   ├── trn_fav
-│   │   └── tst_int
 ├── Utils/               # 工具目录
 │   ├── README.md
 │   └── TimeLogger.py    # 时间记录工具

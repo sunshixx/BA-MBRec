@@ -218,7 +218,7 @@ class GCNLayer(nn.Module):
             item_embedding_list[i] = torch.spmm(self.behavior_mats[i]['AT'], user_embedding)
         user_embeddings = torch.stack(user_embedding_list, dim=0)
         item_embeddings = torch.stack(item_embedding_list, dim=0)
-        user_embeddinngs = self.mh_attention(
+        user_embeddings = self.mh_attention(
             user_embeddings,
             self.user_q_w,
             self.user_k_w,
@@ -226,7 +226,7 @@ class GCNLayer(nn.Module):
             self.user_trans_weights_s1,
             self.user_trans_weights_s2
         )
-        item_embeddinngs = self.mh_attention(
+        item_embeddings = self.mh_attention(
             item_embeddings,
             self.item_q_w,
             self.item_k_w,
@@ -234,8 +234,8 @@ class GCNLayer(nn.Module):
             self.item_trans_weights_s1,
             self.item_trans_weights_s2
         )
-        user_embeddinng = torch.matmul(torch.mean(user_embeddinngs, dim=0), self.u_w)
-        item_embeddinng = torch.matmul(torch.mean(item_embeddinngs, dim=0), self.i_w)
+        user_embedding = torch.matmul(torch.mean(user_embeddings, dim=0), self.u_w)
+        item_embedding = torch.matmul(torch.mean(item_embeddings, dim=0), self.i_w)
 
         attention = F.softmax(
             torch.matmul(
